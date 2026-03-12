@@ -139,14 +139,17 @@ High-risk samples are flagged as **potentially mislabeled** and recommended for 
 | High-risk samples flagged | 268           |
 
 The pipeline reduces the dataset to **~1.8% suspicious samples**, allowing efficient manual auditing instead of reviewing the entire dataset.
-
+![Model Results](label_auditor_marked.png)
 ---
 
 # Key Advantages
 
 Automatically detects **label inconsistencies**
+
 Reduces dataset review effort by **~98%**
+
 Combines **unsupervised learning and semantic validation**
+
 Demonstrates a **data-centric AI workflow**
 
 ---
