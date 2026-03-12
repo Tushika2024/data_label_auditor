@@ -145,11 +145,15 @@ Model Output :
 ---
 # Key Advantages of This Approach
 
-✔ Detects **label inconsistencies automatically**
-✔ Reduces manual review effort by **98%**
-✔ Combines **unsupervised learning and semantic validation**
-✔ Demonstrates a **data-centric AI workflow**
-✔ Helps improve **dataset quality before model training**
+Detects **label inconsistencies automatically**
+
+Reduces manual review effort by **98%**
+
+Combines **unsupervised learning and semantic validation**
+
+Demonstrates a **data-centric AI workflow**
+
+Helps improve **dataset quality before model training**
 
 ---
 
@@ -188,8 +192,7 @@ LABEL_AUDITOR.ipynb
 The pipeline will generate:
 
 ```
-airline_audit_complete.csv
-high_risk_airline_audit_complete_final.csv
+high_risk_airline_audit_complete_final(1).csv
 ```
 
 ---
