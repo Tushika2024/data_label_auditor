@@ -1,4 +1,4 @@
-# Data Label Auditor for Sentiment Datasets
+# SentinelLabel: Semantic Label Noise Detection for NLP
 
 ## Project Overview
 
