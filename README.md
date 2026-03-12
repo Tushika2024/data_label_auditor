@@ -139,6 +139,8 @@ High-risk samples are flagged as **potentially mislabeled** and recommended for 
 | High-risk samples flagged | 268           |
 
 The pipeline reduces the dataset to **~1.8% suspicious samples**, allowing efficient manual auditing instead of reviewing the entire dataset.
+
+Model Output :
 ![Model Results](label_auditor_marked.png)
 ---
 
@@ -153,5 +155,3 @@ Combines **unsupervised learning and semantic validation**
 Demonstrates a **data-centric AI workflow**
 
 ---
-
-If you want, I can also show you **one small improvement that makes your README look significantly more professional on GitHub**: adding a **visual pipeline diagram (boxes + arrows)** instead of only text flow. It makes ML projects **look much stronger to recruiters.**
