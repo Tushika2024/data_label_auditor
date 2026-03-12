@@ -143,15 +143,78 @@ The pipeline reduces the dataset to **~1.8% suspicious samples**, allowing effic
 Model Output :
 ![Model Results](label_auditor_marked.png)
 ---
+# Key Advantages of This Approach
 
-# Key Advantages
-
-Automatically detects **label inconsistencies**
-
-Reduces dataset review effort by **~98%**
-
-Combines **unsupervised learning and semantic validation**
-
-Demonstrates a **data-centric AI workflow**
+✔ Detects **label inconsistencies automatically**
+✔ Reduces manual review effort by **98%**
+✔ Combines **unsupervised learning and semantic validation**
+✔ Demonstrates a **data-centric AI workflow**
+✔ Helps improve **dataset quality before model training**
 
 ---
+
+# How to Run the Project
+
+## 1 Clone Repository
+
+```bash
+git clone https://github.com/Tushika2024/data_label_auditor.git
+cd data-label-auditor
+```
+
+---
+
+## 2 Install Dependencies
+
+```
+pip install sentence-transformers
+pip install umap-learn
+pip install hdbscan
+pip install optuna
+pip install scikit-learn
+pip install pandas numpy matplotlib seaborn
+```
+
+---
+
+## 3 Run the Notebook
+
+Open and run:
+
+```
+LABEL_AUDITOR.ipynb
+```
+
+The pipeline will generate:
+
+```
+airline_audit_complete.csv
+high_risk_airline_audit_complete_final.csv
+```
+
+---
+
+# Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* SentenceTransformers
+* UMAP
+* HDBSCAN
+* Optuna
+
+---
+
+# Future Improvements
+
+Possible extensions include:
+
+* human-in-the-loop annotation interface
+* active learning for automatic relabeling
+* evaluation across multiple sentiment datasets
+* integration into ML data pipelines
+
+---
+
